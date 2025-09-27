@@ -1,0 +1,4 @@
+<additional> 
+    <!-- 更多学习资料请关注微信公众号：云鹤烟波-->
+    <timedEvent type="SaveTLSStates" source="cluster_0_1_2_3" dest="modelresult/TLSStates.xml"  saveDetectors="true"  saveConditions="true" />
+</additional> 

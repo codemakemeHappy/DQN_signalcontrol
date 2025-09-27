@@ -1,0 +1,32 @@
+<additional>
+  <!-- 更多学习资料请关注微信公众号：云鹤烟波-->
+  <tlLogic id="cluster_0_1_2_3" programID="0" offset="0" type="static">
+     <phase duration="15" state="GGGGGrrrGrrrGrrr" />
+     <phase duration="3"  state="GyyyGrrrGrrrGrrr" />
+     <phase duration="2"  state="GrrrGrrrGrrrGrrr" />
+     <phase duration="15" state="GrrrGGGGGrrrGrrr" />
+     <phase duration="3"  state="GrrrGyyyGrrrGrrr" />
+     <phase duration="2"  state="GrrrGrrrGrrrGrrr" />
+     <phase duration="15" state="GrrrGrrrGGGGGrrr" />
+     <phase duration="3"  state="GrrrGrrrGyyyGrrr" />
+     <phase duration="2"  state="GrrrGrrrGrrrGrrr" />
+     <phase duration="15" state="GrrrGrrrGrrrGGGG" />
+     <phase duration="3"  state="GrrrGrrrGrrrGyyy" />
+     <phase duration="2"  state="GrrrGrrrGrrrGrrr" />
+  </tlLogic>
+  <tlLogic id="cluster_0_1_2_3" programID="1" offset="0" type="static">
+     <phase duration="30" state="GGGGGrrrGrrrGrrr" minDur="15" maxDur="30"/>
+     <phase duration="3"  state="GyyyGrrrGrrrGrrr" minDur="3" maxDur="3"/>
+     <phase duration="2"  state="GrrrGrrrGrrrGrrr" minDur="2" maxDur="2"/>
+     <phase duration="25" state="GrrrGGGGGrrrGrrr" minDur="15" maxDur="25"/>
+     <phase duration="3"  state="GrrrGyyyGrrrGrrr" minDur="3" maxDur="3"/>
+     <phase duration="2"  state="GrrrGrrrGrrrGrrr" minDur="2" maxDur="2"/>
+     <phase duration="30" state="GrrrGrrrGGGGGrrr" minDur="20" maxDur="30"/>
+     <phase duration="3"  state="GrrrGrrrGyyyGrrr" minDur="3" maxDur="3"/>
+     <phase duration="2"  state="GrrrGrrrGrrrGrrr" minDur="2" maxDur="2"/>
+     <phase duration="20" state="GrrrGrrrGrrrGGGG" minDur="15" maxDur="20"/>
+     <phase duration="3"  state="GrrrGrrrGrrrGyyy" minDur="3" maxDur="3"/>
+     <phase duration="2"  state="GrrrGrrrGrrrGrrr" minDur="2" maxDur="2"/>
+  </tlLogic>
+
+</additional>

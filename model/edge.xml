@@ -1,0 +1,46 @@
+<edges>
+   <!-- 更多学习资料请关注微信公众号：云鹤烟波-->
+   <edge id="s_e1" spreadType="center" from="4" to="5" numLanes="3"  />
+
+   <edge id="s_e" spreadType="center" from="5" to="0" numLanes="3" >
+        <lane index="2" changeLeft="custom1" changeRight="custom1"/>
+        <lane index="1" changeLeft="custom1" changeRight="custom1"/>
+        <lane index="0" changeLeft="custom1" changeRight="custom1"/>
+    </edge>
+
+   <edge id="s_o" spreadType="center" from="3" to="15"  numLanes="3"  />
+
+   <edge id="e_o" spreadType="center" from="0" to="6" numLanes="3"  />
+
+   <edge id="e_e" spreadType="center" from="8" to="1" numLanes="3" >
+        <lane index="2" changeLeft="custom1" changeRight="custom1"/>
+        <lane index="1" changeLeft="custom1" changeRight="custom1"/>
+        <lane index="0" changeLeft="custom1" changeRight="custom1"/>
+    </edge>
+
+   <edge id="e_e1" spreadType="center" from="7" to="8" numLanes="3"  />
+
+
+   <edge id="n_o" spreadType="center" from="1" to="9" numLanes="3"  />
+
+   <edge id="n_e" spreadType="center" from="11" to="2" numLanes="3" >
+        <lane index="2" changeLeft="custom1" changeRight="custom1"/>
+        <lane index="1" changeLeft="custom1" changeRight="custom1"/>
+        <lane index="0" changeLeft="custom1" changeRight="custom1"/>
+    </edge>
+
+   <edge id="n_e1" spreadType="center" from="10" to="11" numLanes="3"  />
+
+   <edge id="w_o" spreadType="center" from="2" to="12" numLanes="3"  />
+
+   <edge id="w_e" spreadType="center" from="14" to="3" numLanes="3">
+        <lane index="2" changeLeft="custom1" changeRight="custom1"/>
+        <lane index="1" changeLeft="custom1" changeRight="ignoring"/>
+        <lane index="0" changeLeft="custom1" changeRight="custom1" />
+    </edge>
+
+   <edge id="w_e1" spreadType="center" from="13" to="14" numLanes="3"  />
+
+
+
+</edges>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-09-24 16:56:11 by Eclipse SUMO sumo Version 1.24.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="E:\graduateSaas\project\tracicase19_DQN_signalcontrol\model\output.net.xml"/>
+        <route-files value="E:\graduateSaas\project\tracicase19_DQN_signalcontrol\model\rou.rou.xml"/>
+        <additional-files value="E:\graduateSaas\project\tracicase19_DQN_signalcontrol\model\detector.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <xml-validation value="never"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="50180"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="1000"/>
+    </random_number>
+
+</sumoConfiguration>
+-->
+
+<e3Detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e3_file.xsd">
+</e3Detector>

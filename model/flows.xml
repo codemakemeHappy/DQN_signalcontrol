@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- 更多学习资料请关注微信公众号：云鹤烟波-->
+<routes>
+    <vType id="ICV_car" vClass="passenger"  />
+    <flow id="e1" from="e_e1" to="n_o" begin="0" end="3600" number="154" type="ICV_car"  />
+    <flow id="e2" from="e_e1" to="w_o" begin="0" end="3600" number="329" type="ICV_car" />
+    <flow id="e3" from="e_e1" to="s_o" begin="0" end="3600" number="293" type="ICV_car" />
+    <flow id="e4" from="e_e1" to="e_o" begin="0" end="3600" number="15" type="ICV_car" />
+
+
+    <flow id="s1" from="s_e1" to="n_o" begin="0" end="3600" number="222" type="ICV_car" />
+    <flow id="s2" from="s_e1" to="w_o" begin="0" end="3600" number="153" type="ICV_car" />
+    <flow id="s3" from="s_e1" to="s_o" begin="0" end="3600" number="11" type="ICV_car" />
+    <flow id="s4" from="s_e1" to="e_o" begin="0" end="3600" number="72" type="ICV_car"  />
+    
+
+    <flow id="w1" from="w_e1" to="n_o" begin="0" end="3600" number="238" type="ICV_car" />
+    <flow id="w2" from="w_e1" to="w_o" begin="0" end="3600" number="16" type="ICV_car" />
+    <flow id="w3" from="w_e1" to="s_o" begin="0" end="3600" number="48" type="ICV_car"  />
+    <flow id="w4" from="w_e1" to="e_o" begin="0" end="3600" number="281" type="ICV_car" />
+  
+
+    <flow id="n1" from="n_e1" to="n_o" begin="0" end="3600" number="14" type="ICV_car" />
+    <flow id="n2" from="n_e1" to="w_o" begin="0" end="3600" number="36" type="ICV_car" />
+    <flow id="n3" from="n_e1" to="s_o" begin="0" end="3600" number="273" type="ICV_car" />
+    <flow id="n4" from="n_e1" to="e_o" begin="0" end="3600" number="257" type="ICV_car" />
+    
+
+</routes>

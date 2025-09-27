@@ -1,0 +1,66 @@
+<a>
+    <!-- 更多学习资料请关注微信公众号：云鹤烟波-->
+    <inductionLoop id="e0" lane="e_e_0" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" /> 
+    <inductionLoop id="e1" lane="e_e_1" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="e2" lane="e_e_2" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="w0" lane="w_e_0" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="w1" lane="w_e_1" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="w2" lane="w_e_2" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="s0" lane="s_e_0" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="s1" lane="s_e_1" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="s2" lane="s_e_2" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="n0" lane="n_e_0" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="n1" lane="n_e_1" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="n2" lane="n_e_2" pos="31.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+
+
+
+
+    <inductionLoop id="actuatee1" lane="e_e_1" pos="11.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="actuatee2" lane="e_e_2" pos="11.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+  
+    <inductionLoop id="actuatew1" lane="w_e_1" pos="11.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="actuatew2" lane="w_e_2" pos="11.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+
+    <inductionLoop id="actuates1" lane="s_e_1" pos="11.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="actuates2" lane="s_e_2" pos="11.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+   
+    <inductionLoop id="actuaten1" lane="n_e_1" pos="11.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+    <inductionLoop id="actuaten2" lane="n_e_2" pos="11.2" file="modelresult/inductionLoopresult.xml" freq="1" />
+
+
+  
+
+   <entryExitDetector id="entryExit1"  file="modelresult/entryExit1.xml" freq="3600">
+      <detEntry lane="w_e1_0" pos="80" />
+      <detEntry lane="w_e1_1" pos="80" />
+      <detEntry lane="w_e1_2" pos="80" />
+      <detEntry lane="e_e1_0" pos="80" />
+      <detEntry lane="e_e1_1" pos="80" />
+      <detEntry lane="e_e1_2" pos="80" />
+      <detEntry lane="s_e1_0" pos="80" />
+      <detEntry lane="s_e1_1" pos="80" />
+      <detEntry lane="s_e1_2" pos="80" />
+      <detEntry lane="n_e1_0" pos="80" />
+      <detEntry lane="n_e1_1" pos="80" />
+      <detEntry lane="n_e1_2" pos="80" />
+
+      <detExit lane="n_o_0" pos="10" />
+      <detExit lane="n_o_1" pos="10" />
+      <detExit lane="n_o_2" pos="10" />
+      <detExit lane="s_o_0" pos="10" />
+      <detExit lane="s_o_1" pos="10" />
+      <detExit lane="s_o_2" pos="10" />
+      <detExit lane="e_o_0" pos="10" />
+      <detExit lane="e_o_1" pos="10" />
+      <detExit lane="e_o_2" pos="10" />
+      <detExit lane="w_o_0" pos="10" />
+      <detExit lane="w_o_1" pos="10" />
+      <detExit lane="w_o_2" pos="10" />
+   </entryExitDetector>
+
+
+
+
+
+</a>

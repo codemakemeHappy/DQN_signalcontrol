@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 更多学习资料请关注微信公众号：云鹤烟波-->
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="e_e" to="e_o" fromLane="2" toLane="2"/>
+    <connection from="e_e" to="s_o" fromLane="2" toLane="2"/>
+    <connection from="e_e" to="w_o" fromLane="1" toLane="1"/>
+    <connection from="e_e" to="n_o" fromLane="0" toLane="0"/>
+
+    <connection from="s_e" to="e_o" fromLane="0" toLane="0"/>
+    <connection from="s_e" to="s_o" fromLane="2" toLane="2"/>
+    <connection from="s_e" to="w_o" fromLane="2" toLane="2"/>
+    <connection from="s_e" to="n_o" fromLane="1" toLane="1"/>
+
+    <connection from="w_e" to="e_o" fromLane="1" toLane="1"/>
+    <connection from="w_e" to="s_o" fromLane="0" toLane="0"/>
+    <connection from="w_e" to="w_o" fromLane="2" toLane="2"/>
+    <connection from="w_e" to="n_o" fromLane="2" toLane="2"/>
+
+    <connection from="n_e" to="e_o" fromLane="2" toLane="2"/>
+    <connection from="n_e" to="s_o" fromLane="1" toLane="1"/>
+    <connection from="n_e" to="w_o" fromLane="0" toLane="0"/>
+    <connection from="n_e" to="n_o" fromLane="2" toLane="2"/>
+
+    <connection from="w_e1" to="w_e" fromLane="0" toLane="0"/>
+    <connection from="w_e1" to="w_e" fromLane="1" toLane="1"/>
+    <connection from="w_e1" to="w_e" fromLane="2" toLane="2"/>
+
+    <connection from="e_e1" to="e_e" fromLane="0" toLane="0"/>
+    <connection from="e_e1" to="e_e" fromLane="1" toLane="1"/>
+    <connection from="e_e1" to="e_e" fromLane="2" toLane="2"/>
+
+    <connection from="s_e1" to="s_e" fromLane="0" toLane="0"/>
+    <connection from="s_e1" to="s_e" fromLane="1" toLane="1"/>
+    <connection from="s_e1" to="s_e" fromLane="2" toLane="2"/>
+
+    <connection from="n_e1" to="n_e" fromLane="0" toLane="0"/>
+    <connection from="n_e1" to="n_e" fromLane="1" toLane="1"/>
+    <connection from="n_e1" to="n_e" fromLane="2" toLane="2"/>
+</connections>
