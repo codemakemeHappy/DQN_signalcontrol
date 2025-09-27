@@ -1,0 +1,3 @@
+netconvert --node-files=node.xml --edge-files=edge.xml --connection-files=connect.xml --output-file=output.net.xml --no-turnarounds=true
+duarouter --net-file=output.net.xml --route-files=flows.xml --output-file=rou.rou.xml
+
